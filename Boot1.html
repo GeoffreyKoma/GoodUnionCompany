@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First Bootstrap Project</title>
+	<link rel="stylesheet" type="text/css" href="Boot.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+</head>
+<body>
+
+
+
+ <section class="Navbar">
+ 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><h2>
+  <i class="fa fa-building" aria-hidden="true"></i>  GOOD UNION COMPANY LIMITED</h2></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="AboutUs.html">About</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="#">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ContactUs1.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+ </section>
+
+<!---Slider-->
+<div id="slider">
+  <div id="headerSlider" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+    <li data-target="#headerSlider" data-slide-to="1"></li>
+    <li data-target="#headerSlider" data-slide-to="2"></li>
+     <li data-target="#headerSlider" data-slide-to="3"></li>
+      <li data-target="#headerSlider" data-slide-to="4"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imageGraphics2.jpg" class="d-block w-100" height="700px">
+      <div class="carousel-caption">
+        <h5>How To Make A Website</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Abu_dhabi.jpg" class="d-block w-100" height="700px">
+      <div class="carousel-caption">
+        <h5>Create Responsive Website</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="qatar.jpg" class="d-block w-100" height="700px">
+      <div class="carousel-caption">
+        <h5>How To Make A Business Website</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image1.jpg" class="d-block w-100" height="700px">
+      <div class="carousel-caption">
+        <h5>Learning Computer Graphics</h5>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="imageTwo.png" class="d-block w-100" height="700px">
+      <div class="carousel-caption">
+        <h5>How To Write Computer Codes</h5>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+         <!--About-->
+
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>About Us</h2>
+        <div class="about-content">
+          The name of the company is GOOD UNION COMPANY LIMITED.The registered office of the company is situated in Lira, Uganda.We, the three several persons, Geoffrey Komakech, Nyeko Samuel and Ajok Scovia are the Directors of the company and we respectively agree to take the number of shares in the capital of the company respective names.
+      </div>
+      <button type="button" class="btn btn-primary">Read More>>>
+      </button>
+      </div>
+
+      <div class="col-md-6">
+        <p>Computer Services</p>
+        <div class="progress">
+          <div class="progress-bar" style="width:80%">
+          </div>
+        </div>
+
+        <p>Training</p>
+        <div class="progress">
+          <div class="progress-bar" style="width:70%">
+          </div>
+        </div>
+        <p>Decorations</p>
+        <div class="progress">
+          <div class="progress-bar" style="width:60%">
+          </div>
+        </div>
+        <p>Hardware</p>
+        <div class="progress">
+          <div class="progress-bar" style="width:40%">
+          </div>
+        </div> 
+        <p>Electronis</p>
+        <div class="progress">
+          <div class="progress-bar" style="width:20%">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!---Services-->
+<section id="services">
+  <div class="container">
+    <h1>Our Services</h1>
+  </div>
+
+  <div class="row services">
+    <div class="col-md-3 text-center">
+    <div class="icon">
+      <i class="fa fa-desktop"></i>
+    </div>
+    <h3>Web Development</h3>
+    <p>We are here to create and host the websites of our client in in just the way that shall make high quality</p>
+     </div>
+
+     <div class="col-md-3 text-center">
+    <div class="icon">
+      <i class="fa fa-sitemap"></i>
+    </div>
+    <h3>Digital Marketting</h3>
+    <p>We connect clients all round the globe to specically market the products they have for the diversification of the economy</p>
+     </div>
+
+     <div class="col-md-3 text-center">
+    <div class="icon">
+      <i class="fa fa-university"></i>
+    </div>
+    <h3>Graphics</h3>
+    <p>We handle Graphic designs of all kinds and high level of Virtual Reality</p>
+     </div>
+
+     <div class="col-md-3 text-center">
+    <div class="icon">
+      <i class="fa fa-book"></i>
+    </div>
+    <h3>Stationery</h3>
+    <p>We deal in stationary of all type at the affordable prices and we encourage you to support us</p>
+     </div>
+  </div>
+</section>
+
+<!---Team Members-->
+<section>
+  <div id="team">
+    <div class="container">
+      <h1>Our Team</h1>
+      <div class="row">
+        <div class="col-md-3 profile-pic text-center">
+        <div class="img-box">
+          <img src="image3.jpg" class="img-responsive" height="50%" width="100%">
+          <ul>
+            <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+             <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+              <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+          </ul>
+        </div>
+        <h2>Geoffrey Komakech</h2>
+        <h3>Company Secretary</h3>
+        <p>He is responsible for the writing and appending the signature to all the documents of the Company</p>
+      </div>
+      
+
+       <div class="col-md-3 profile-pic text-center">
+        <div class="img-box">
+          <img src="imageThree.jpg" class="img-responsive" height="50%" width="100%">
+          <ul>
+            <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+             <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+              <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+          </ul>
+        </div>
+        <h2>Ajok Scovia</h2>
+        <h3>Company Director</h3>
+        <p>She is the Director of the Company and responsible for the sole monitoring, control, cordination and evaluation of all the activities of the Company</p>
+      </div>
+
+       <div class="col-md-3 profile-pic text-center">
+        <div class="img-box">
+          <img src="image3.jpg" class="img-responsive" height="50%" width="100%">
+          <ul>
+            <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+             <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+              <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+          </ul>
+        </div>
+        <h2>Nyeko Samuel</h2>
+        <h3>Company Treasurer</h3>
+        <p>He handles whatever finance of the Company and ensures the right flow of money in and out of the Company.</p>
+      </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!---promo-->
+<section id="promo">
+  <div class="container">
+    <p>Please contact us today and send us your view on how best we can improve on the quality of our Services</p>
+    <a href="#" class="btn btn-primary">Contact Us</a>
+  </div>
+</section>
+
+<!---Testimonials-->
+<section id="testimonials">
+  <div class="container">
+    <h1>Testimonials</h1>
+    <p class="text-center">Click on the link below to watch more youtube videos</p>
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <div class="profile">
+          <img src="img2.jpg" class="user">
+          <blockquote>Good union Limited has done it again and forever we say that may you prosper to take the right change in Uganda and Africa at Large</blockquote>
+          <h3>Oloya Geoffrey-<span>Co-Founder at GUCoLTD</span></h3>
+        </div>
+      </div>
+
+       <div class="col-md-4 text-center">
+        <div class="profile">
+          <img src="img1.jpg" class="user">
+          <blockquote>Academic activities has been made possible through the tremendous work that the Good Union has put up in Place. Its a joy to have you build generations</blockquote>
+          <h3>Odic Ronald-<span>Student at Lira University</span></h3>
+        </div>
+      </div>
+
+       <div class="col-md-4 text-center">
+        <div class="profile">
+          <img src="img3.jpg" class="user">
+          <blockquote>I have love so much the way Good Union is doing it and its my prayer that they move the world to a greater heights. i have my Trust in this Company for their outstanding work</blockquote>
+          <h3>Kim Danz-<span>Technician at UTC-Lira</span></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+            <!---Youtube-->
+
+
+<section class="Youtube">
+  <div class="buttonTwo">
+  <a href="video.html" id="btn">WATCH VIDEOS</a>
+  <a href="AboutUs.html" id="btn">LEARN MORE</a>
+  </div>
+</section>
+
+<!--get in Touch-->
+<section id="contact">
+  <div class="container">
+    <h1>Get in touch</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <input type="number" class="form-control" placeholder="Phone Number">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email Id ">
+          </div>
+          <div class="form-group">
+            <textarea type="text" class="form-control" rows="4" placeholder="Message"></textarea>
+          </div>
+          <div>
+            <button type="submit" class="btn ntn-primary">SEND MESSAGE</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <div class="follow"><i class="fa fa-check-square"></i>   <b>Adress1:</b> 123 Oyite Ojok Road, Lira, Ug</div>
+        <div class="follow"><i class="fa fa-window-close"></i>   <b>Adress2:</b> 146 Layibi, Gulu, Ug</div>
+        <div class="follow"><i class="fa fa-window-close"></i>   <b>Adress3:</b> Kalongo Town Council, Agago, Ug</div>
+        <div class="follow"><i class="fa fa-phone"></i><b></b>    0484346369/0378787843</div>
+        <div class="follow"><i class="fa fa-whatsapp"></i><b></b>    0784346369</div>
+       <div class="follow"><i class="fa fa-facebook"></i><b></b>    Good Union Co.Ltd</div>
+
+       <div class="follow"><i class="fa fa-twitter"></i><b></b>    GoodUniCoLtd</div>
+       <div class="follow"><i class="fa fa-globe"></i><b></b>    www.goodunioncompanylimited.com</div>
+
+    </div>
+  </div>
+</section>
+<!---Back to Top-->
+<section id="back">
+  <div class="back-to-top">
+     <div>
+            <a href="#"><center><h2>Back To HomePage</h></center></a>
+    </div>
+  </div>
+</section>
+</body>
+</html>
